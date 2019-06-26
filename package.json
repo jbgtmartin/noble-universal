@@ -1,0 +1,15 @@
+{
+  "name": "noble-universal",
+  "version": "1.0.0",
+  "description": "Exports noble-mac on OSX or noble-uwp on Windows.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "EzyGain",
+  "license": "ISC",
+  "dependencies": {
+    "noble-mac": "git+https://github.com/Timeular/noble-mac.git",
+    "noble-uwp": "^0.6.2"
+  }
+}
